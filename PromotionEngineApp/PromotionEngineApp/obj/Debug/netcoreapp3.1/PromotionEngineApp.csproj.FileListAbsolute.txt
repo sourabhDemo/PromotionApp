@@ -1,0 +1,13 @@
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\bin\Debug\netcoreapp3.1\PromotionEngineApp.exe
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\bin\Debug\netcoreapp3.1\PromotionEngineApp.deps.json
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\bin\Debug\netcoreapp3.1\PromotionEngineApp.runtimeconfig.json
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\bin\Debug\netcoreapp3.1\PromotionEngineApp.runtimeconfig.dev.json
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\bin\Debug\netcoreapp3.1\PromotionEngineApp.dll
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\bin\Debug\netcoreapp3.1\PromotionEngineApp.pdb
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\obj\Debug\netcoreapp3.1\PromotionEngineApp.csprojAssemblyReference.cache
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\obj\Debug\netcoreapp3.1\PromotionEngineApp.csproj.CoreCompileInputs.cache
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\obj\Debug\netcoreapp3.1\PromotionEngineApp.AssemblyInfoInputs.cache
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\obj\Debug\netcoreapp3.1\PromotionEngineApp.AssemblyInfo.cs
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\obj\Debug\netcoreapp3.1\PromotionEngineApp.dll
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\obj\Debug\netcoreapp3.1\PromotionEngineApp.pdb
+C:\Projects\Maersk Promotion App\PromotionEngineApp\PromotionEngineApp\obj\Debug\netcoreapp3.1\PromotionEngineApp.genruntimeconfig.cache

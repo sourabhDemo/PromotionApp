@@ -7,5 +7,11 @@ namespace PromotionEngineApp.Models
         public int OrderId { get; set; }
 
         public List<Sku> StockUnits { get; set; }
+
+        public Order(int orderId, List<Sku> units)
+        {
+            OrderId = orderId;
+            StockUnits = units;
+        }
     }
 }

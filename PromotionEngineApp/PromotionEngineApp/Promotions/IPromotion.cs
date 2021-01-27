@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace PromotionEngineApp.Promotions
 {
     public interface IPromotion
     {
-        Dictionary<string, int> GetPromotion();
+        Tuple<Dictionary<string, int>, int> GetPromotion();
     }
 }

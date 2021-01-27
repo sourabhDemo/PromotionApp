@@ -1634,6 +1634,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "PromotionEngineApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PromotionEngineApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PromotionEngineApp.dll": {}
+        }
       }
     }
   },
@@ -5706,6 +5716,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "PromotionEngineApp/1.0.0": {
+      "type": "project",
+      "path": "../PromotionEngineApp/PromotionEngineApp.csproj",
+      "msbuildProject": "../PromotionEngineApp/PromotionEngineApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5713,6 +5728,7 @@
       "MSTest.TestAdapter >= 2.1.1",
       "MSTest.TestFramework >= 2.1.1",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
+      "PromotionEngineApp >= 1.0.0",
       "coverlet.collector >= 1.3.0"
     ]
   },
@@ -5746,7 +5762,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\Maersk Promotion App\\PromotionEngineApp\\PromotionEngineApp\\PromotionEngineApp.csproj": {
+              "projectPath": "C:\\Projects\\Maersk Promotion App\\PromotionEngineApp\\PromotionEngineApp\\PromotionEngineApp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

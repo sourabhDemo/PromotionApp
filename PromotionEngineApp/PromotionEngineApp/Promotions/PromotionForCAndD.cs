@@ -1,14 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace PromotionEngineApp.Promotions
 {
-    public class PromotionForCAndD:IPromotion
+    public class PromotionForCAndD : IPromotion
     {
-        private readonly Dictionary<string, int> _promotionForCAndD = new Dictionary<string, int> { { "C", 1 }, {"D", 1} };
+        private readonly Dictionary<string, int> _promotionForCAndD = new Dictionary<string, int> { { "C", 1 }, { "D", 1 } };
 
-        public Dictionary<string, int> GetPromotion()
+        public Tuple<Dictionary<string, int>, int> GetPromotion()
         {
-            return _promotionForCAndD;
+            var promotion = Tuple.Create(_promotionForCAndD, 30);
+            return promotion;
         }
     }
 }

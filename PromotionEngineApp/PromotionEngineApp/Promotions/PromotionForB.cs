@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace PromotionEngineApp.Promotions
 {
@@ -6,9 +7,10 @@ namespace PromotionEngineApp.Promotions
     {
         private readonly Dictionary<string, int> _promotionForB = new Dictionary<string, int> { { "B", 2 } };
 
-        public Dictionary<string, int> GetPromotion()
+        public Tuple<Dictionary<string, int>,int> GetPromotion()
         {
-            return _promotionForB;
+            var promotion = Tuple.Create(_promotionForB, 45);
+            return promotion;
         }
     }
 }
