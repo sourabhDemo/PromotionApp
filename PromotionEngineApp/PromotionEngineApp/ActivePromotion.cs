@@ -36,7 +36,26 @@ namespace PromotionEngineApp
                 }
             }
 
-            return Promotions.GroupBy(t=>t.PromotionId).Select(x=>x.First());
+            return Promotions.GroupBy(t => t.PromotionId).Select(x => x.First());
+        }
+
+        public decimal GetPromotionPrice(Order order, Promotion promotion)
+        {
+            decimal totalPrice = 0M;
+
+            var stockUnitPrice = order.StockUnits
+                .GroupBy(x => x.Id)
+                .Where(g => promotion.PromotionInfo.Any(y => g.Key == y.Key && g.Count() >= y.Value))
+                .Select(g => g.Count())
+                .Sum();
+
+            var promotionPrice = promotion.PromotionInfo.Sum(k => k.Value);
+            while (stockUnitPrice >= promotionPrice)
+            {
+                totalPrice += promotion.PromotionPrice;
+                stockUnitPrice -= promotionPrice;
+            }
+            return totalPrice;
         }
     }
 }
